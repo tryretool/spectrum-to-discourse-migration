@@ -57,7 +57,7 @@ Deletes topics if you need to redo any part of the migration. Takes two argument
 
 Sample usage: `python delete_topics.py 1123 1156`
 
-#### 2) `utils.py`
+##### 2) `utils.py`
 
 Contains some utility functions, the Markdown parser, and a place to store your Discourse API key. This file is not executable.
 
@@ -76,6 +76,7 @@ General guidelines / steps:
 
 1) Download all of your Spectrum data (the tables called `users`, `threads`, and `messages`)
 2) Create an empty `topic_mappings.csv` file or use the sample one included
-3) Run the users migration
-4) Run the topics migration
-5) Run the posts migration
+3) Put your Discourse API key into `utils.py` and choose a temporary user password in `migrate_users.py`
+4) Run the users migration
+5) Run the topics migration
+6) Run the posts migration
