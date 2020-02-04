@@ -1,0 +1,16 @@
+﻿channelId,communityId,content,createdAt,creatorId,edits,id,isLocked,isPublished,lastActive,messageCount,modifiedAt,reactionCount,score,scoreUpdatedAt,type
+85cf0f33-a1b2-46fc-9c55-0f35ef7eb555,73c223a9-5165-4ac6-994c-b6c7e342352c,"{
+  ""body"": ""{\""blocks\"":[{\""key\"":\""fc2po\"",\""text\"":\""Hello friends at Retool!\"",\""type\"":\""unstyled\"",\""depth\"":0,\""inlineStyleRanges\"":[],\""entityRanges\"":[],\""data\"":{}},{\""key\"":\""5uc47\"",\""text\"":\""We continue to be impressed and delighted by Retool as time goes on and our team continues to integrate it more and more into our workflows. We're looking to lean on it even more, and have thus come to an area where we'd like some guidance on: automatic testing for the JavaScript that.\"",\""type\"":\""unstyled\"",\""depth\"":0,\""inlineStyleRanges\"":[],\""entityRanges\"":[],\""data\"":{}},{\""key\"":\""5fae5\"",\""text\"":\""We're mainly talking about code that run in the transformers. The approach that seems at first blush to be the best long-term solution is publishing an npm package or other form of JS bundle that we could run tests against in CI.\"",\""type\"":\""unstyled\"",\""depth\"":0,\""inlineStyleRanges\"":[],\""entityRanges\"":[],\""data\"":{}},{\""key\"":\""jq27\"",\""text\"":\""Do you have a recommend way of testing the JS that runs in Retools?\"",\""type\"":\""unstyled\"",\""depth\"":0,\""inlineStyleRanges\"":[],\""entityRanges\"":[],\""data\"":{}}],\""entityMap\"":{}}"",
+  ""title"": ""JavaScript Testing""
+}",2019-10-02T04:27:48.375Z,063d545e-8e0c-4ec5-910b-fc9d2a5250bb,[],14daa2d1-ed30-479d-8970-511942e64739,false,true,2019-11-20T05:24:20.079Z,5,,0,-1153.408545457775,2020-01-29T13:48:57.079Z,DRAFTJS
+85cf0f33-a1b2-46fc-9c55-0f35ef7eb555,73c223a9-5165-4ac6-994c-b6c7e342352c,"{
+  ""body"": ""{\""blocks\"":[{\""key\"":\""e79cq\"",\""text\"":\""I've created my first app, and I'd like one person in my organization to use it. How can I do that in the free tier?\"",\""type\"":\""unstyled\"",\""depth\"":0,\""inlineStyleRanges\"":[],\""entityRanges\"":[],\""data\"":{}}],\""entityMap\"":{}}"",
+  ""title"": ""One internal user -- pricing""
+}",2019-09-09T23:51:46.804Z,9de4900c-508c-458e-805d-432562173870,[],04f82248-8054-4ec5-9310-f6e25e0f9005,false,true,2019-09-10T19:51:46.350Z,3,,0,-1180.408545457775,2020-01-09T14:12:47.651Z,DRAFTJS
+eada7c39-f751-433a-867e-3fa467209169,c0e422f4-43b7-4c96-b1c8-502667390d75,"{
+  ""title"": ""spectrum watercooler""
+}",2019-05-02T03:05:56.093Z,167d3614-e20c-47da-b827-c8bb75dcad89,[],05fe3693-8825-4822-b11e-a6dd4eb324f5,false,true,2019-05-02T03:05:56.093Z,0,,0,16.59145454222499,2019-05-02T03:06:40.623Z,DRAFTJS
+85cf0f33-a1b2-46fc-9c55-0f35ef7eb555,73c223a9-5165-4ac6-994c-b6c7e342352c,"{
+  ""body"": """",
+  ""title"": ""How do i publish my app so that users can use it?""
+}",2019-05-08T18:24:18.913Z,89d6f07e-d1f9-4280-8050-9329933774ea,[],00938572-5e51-4efb-a34f-190c7c44c579,false,true,2019-05-08T18:24:18.913Z,0,,0,16.59145454222499,2019-05-08T18:24:19.641Z,DRAFTJS
