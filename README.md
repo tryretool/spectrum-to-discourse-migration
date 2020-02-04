@@ -46,6 +46,36 @@ Takes three arguments:
 
 Sample usage: `python migrate_posts.py spectrum_messages_sample.csv spectrum_users_sample.csv topic_mappings_sample.csv`
 
-#### Utilities
+### Utilities
 
-#### Data
+#### 1) `delete_topics.py`
+
+Deletes topics if you need to redo any part of the migration. Takes two arguments:
+
+- Deletion start: the `topic_id` that you want to start deleting at (inclusive)
+- Deletion end: the `topic_id` that you want to end deleting at (inclusive)
+
+Sample usage: `python delete_topics.py 1123 1156`
+
+#### 2) `utils.py`
+
+Contains some utility functions, the Markdown parser, and a place to store your Discourse API key. This file is not executable.
+
+### Data
+
+Sample data that your Spectrum data should follow the format of:
+
+- `spectrum_users_sample.csv` - Spectrum user data
+- `spectrum_threads_sample.csv` – Spectrum thread data (maps to a Discourse topic)
+- `spectrum_messages_sample.csv` – Spectrum message data (maps to a Discourse post)
+- `topic_mappings_sample.csv` – Sample data for mapping Spectru, threads to Discourse `topic_id`s
+
+## How to use this
+
+General guidelines / steps:
+
+1) Download all of your Spectrum data (the tables called `users`, `threads`, and `messages`)
+2) Create an empty `topic_mappings.csv` file or use the sample one included
+3) Run the users migration
+4) Run the topics migration
+5) Run the posts migration
