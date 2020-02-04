@@ -43,7 +43,7 @@ def createUser(name, email, password, username, headers):
 
 users.apply(lambda x: createUser(name=x['name'], 
                                         email=x['email'], 
-                                        password='retooltemp', 
+                                        password='whatevertemp', 
                                         username=x['username'], 
                                         headers=headers),
             axis=1)

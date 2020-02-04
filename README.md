@@ -24,10 +24,27 @@ There are three (3) key migration scripts (`migrate_*.py`), two (2) utilities (`
 
 1) `migrate_users.py`
 
-Takes one argument - a CSV of Spectrum users - and creates a user in Discourse
+Takes one argument - a CSV of Spectrum users - and creates a user in Discourse with the same email and username as Spectrum. Make sure to update line 46 to be whatever password you want it to be. Example usage: `python migrate_users.py spectrum_users_sample.csv`
 
 2) `migrate_topics.py`
+
+Takes three arguments:
+
+- A CSV of Spectrum threads
+- A CSV of Spectrum users
+- A CSV of topic mappings
+
+Make sure to update the `channel_mappings` (line 22) to match what your Spectrum community's channel mappings are. Sample usage: `python migrate_topics.py spectrum_threads_sample.csv spectrum_users_sample.csv topic_mappings_sample.csv`
+
 3) `migrate_posts.py`
+
+Takes three arguments:
+
+- A CSV of Spectrum messages
+- A CSV of Spectrum users
+- A CSV of topic mappings
+
+Sample usage: `python migrate_posts.py spectrum_messages_sample.csv spectrum_users_sample.csv topic_mappings_sample.csv`
 
 #### Utilities
 
