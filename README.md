@@ -1,4 +1,4 @@
-# spectrum-to-discourse-migration
+# Spectrum to Discourse Migration
 
 If you're looking for help migrating your Spectrum data into Discourse, look no further.
 
@@ -14,6 +14,21 @@ The rest of the libraries we're using (`json`, `sys`, `time`) should all be incl
 
 To run files, activate the virtualenv with `source bin/activate` and then run `python file_name arguments`.
 
+> The `utils.py` file is where your Discourse API Key sits. You'll need to replace `YOUR_API_TOKEN` with, well, your API token.
+
 ## Organization
 
 There are three (3) key migration scripts (`migrate_*.py`), two (2) utilities (`delete_topics.py` and `utils.py`), and four (4) CSVs (`spectrum_messages.csv`, `spectrum_threads.csv`, `spectrum_users.csv`, `topic_mappings.csv`). 
+
+#### Migration
+
+1) `migrate_users.py`
+
+Takes one argument - a CSV of Spectrum users - and creates a user in Discourse
+
+2) `migrate_topics.py`
+3) `migrate_posts.py`
+
+#### Utilities
+
+#### Data
