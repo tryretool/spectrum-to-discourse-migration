@@ -11,3 +11,9 @@ These scripts are just a bunch of Python files configured to run from the comman
 - `requests`
 
 The rest of the libraries we're using (`json`, `sys`, `time`) should all be included with Python by default. 
+
+To run files, activate the virtualenv with `source bin/activate` and then run `python file_name arguments`.
+
+## Organization
+
+There are three (3) key migration scripts (`migrate_*.py`), two (2) utilities (`delete_topics.py` and `utils.py`), and four (4) CSVs (`spectrum_messages.csv`, `spectrum_threads.csv`, `spectrum_users.csv`, `topic_mappings.csv`). 
