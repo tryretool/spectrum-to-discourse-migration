@@ -80,3 +80,5 @@ General guidelines / steps:
 4) Run the users migration
 5) Run the topics migration
 6) Run the posts migration
+
+MIT licensed.
